@@ -1,0 +1,186 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+* {
+  box-sizing: border-box; /* allows us to tell the browser how to measure our elements.  Now the width property includes content, padding, and border, instead of just the content*/
+}
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+header {
+  background-image: url(../images/header_bg.jpg);
+  background-size: cover;
+  opacity: 0.9;
+  height: 450px;
+  margin: auto;
+  margin-top: 0px;
+}
+
+body {
+  background-color: #f0efef;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #606161;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-family: verdana;
+  font-size: 24px;
+  font-weight: 900;
+  color: white;
+  margin-top: 0px;
+  padding-top: 20px;
+  text-align: left;
+  margin-left: 10%;
+}
+
+h2 {
+  font-family: verdana;
+  font-size: 24px;
+  font-weight: semibold;
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: semibold;
+  color: #033048;
+}
+
+h4 {
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: verdana;
+  font-weight: 900;
+  font-size: 24px;
+  color: #f9e42e;
+}
+
+a {
+  text-decoration: none;
+  color: #033048;
+  font-family: arial;
+  font-weight: 900;
+  font-size: 14px;
+}
+
+.signup-text {
+  font-style: verdana;
+  font-weight: 800;
+  color: #fff;
+  background-color: #033048;
+  font-size: 12px;
+}
+
+.getitnow-button {
+  border: 5px solid #f9e42e;
+  border-radius: 5px;
+  width: 130px;
+  height: 30px;
+  background-color: #f9e42e;
+  margin-top: 30px;
+}
+
+.signup-button {
+  background-color: #033048;
+  border-radius: 5px;
+  width: 140px;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #033048;
+}
+
+section {
+  background-color: #f0efef;
+  text-align: left;
+  margin-left: 10%;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.quote {
+  background-image: url(../images/testimonial_bg.jpg);
+  background-size: cover;
+  opacity: 0.9;
+  height: 200px;
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 5%;
+  color: white;
+  font-weight: 100;
+  float: center;
+
+}
+
+.signup-background {
+  background-color: #f9e42e;
+  margin: auto;
+}
+
+
+p {
+  font-weight: 100;
+}
+
+
+ul {
+  margin-top: 5%;
+  list-style-type: disc;
+  font-weight: 100;
+}
+
+cite {
+  font-style: italic;
+  color: #606161;
+  font-weight: 100;
+}
+
+img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+footer {
+  background-color: #121212;
+  font-size: 9px;
+  font-weight: 400;
+  font-family: verdana;
+  color: white;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  margin: auto;
+  margin-top: 0px;
+  text-align: center;
+
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
