@@ -26,6 +26,13 @@ header {
   margin-top: 0px;
 }
 
+.blog-header {
+  background-color: #033048;
+  background-image: none;
+  height: 80px;
+  width: 100%;
+}
+
 body {
   background-color: #f0efef;
   font-size: 13px;
@@ -43,6 +50,10 @@ h1 {
   padding-top: 20px;
   text-align: left;
   margin-left: 10%;
+}
+
+.blog-namelogo {
+  margin-left: 5%;
 }
 
 h2 {
@@ -71,11 +82,38 @@ h4 {
   color: #f9e42e;
 }
 
+h5 {
+  margin-top: 5%;
+  font-size: 24px;
+  font-weight: 500px;
+  color: #033048;
+}
+
+h6 {
+  font-size: 20px;
+  font-weight: 900;
+  color: #033048;
+}
+
 a {
   text-decoration: none;
   color: #033048;
   font-family: arial;
   font-weight: 900;
+  font-size: 14px;
+}
+
+.readmore {
+  width: 100%;
+  text-align: right;
+  display: inline-block;
+}
+
+.aside-nav {
+  text-decoration: none;
+  color: #033048;
+  font-family: arial;
+  font-weight: 100;
   font-size: 14px;
 }
 
@@ -114,6 +152,27 @@ section {
   margin-bottom: 35px;
 }
 
+.posts {
+  float: left;
+  width: 60%;
+  margin-top:0%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  font-size: 16px;
+  font-weight: 100px;
+  color: #606161;
+  border-bottom: 1px solid #033048;
+
+}
+
+
+aside {
+  margin-top: 5%;
+  float: right;
+  width: 20%;
+  margin-right: 5%;
+}
+
 .quote {
   background-image: url(../images/testimonial_bg.jpg);
   background-size: cover;
@@ -146,6 +205,32 @@ ul {
   font-weight: 100;
 }
 
+
+nav{
+  float:right;
+  margin-right: 0px;
+  padding-right: 10%;
+}
+
+nav ol{
+top: 50%;
+transform:translatey(-100%);
+}
+
+nav li{
+  display:inline-block;
+  margin:0px 15px;
+}
+
+nav a{
+  font-family: verdana;
+  font-weight: 200;
+  color:#f9e42e;
+  text-decoration:none;
+
+}
+
+
 cite {
   font-style: italic;
   color: #606161;
@@ -157,6 +242,17 @@ img {
   margin-bottom: 20px;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.blogimg {
+  padding-left: 0px;
+  width: 100%;
+
+}
+
+.ad-img {
+  width: 100%;
+  margin-right: 5%;
 }
 
 footer {
@@ -173,6 +269,7 @@ footer {
 
 /* Center the container */
 #container {
+  clear: both;
   margin: auto;
   margin-top: 0px;
   text-align: center;
