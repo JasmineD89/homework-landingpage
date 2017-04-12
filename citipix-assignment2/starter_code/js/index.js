@@ -17,7 +17,7 @@ var options = '';
 for (var i = 0; i < city.length; i++) {
 	options += '<option value="'+ city[i] + '">' + city[i] + '</option>';
 }
-//this is selecting the id="city-type" from the dom and inserts specified content into the dom.
+//this is selecting the id="city-type" from the dom and inserts specified content into the dom. will display in the order it appears in the var above.
 $("#city-type").append(options);
 	
 
