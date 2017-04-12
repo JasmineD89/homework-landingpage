@@ -6,6 +6,7 @@ $(document).ready(function(){
 //Here I created my function and assigned my variable cityTyped will equal id 'city-type' from the dom. which will output a value.
 	function changeBackground(){
 		var cityTyped = $('#city-type').val();
+		
 		// var austin = ("Austin", "ATX");
 		// var la = ("Los Angeles", "LA");
 		// var nyc = ("New York", "NYC");
